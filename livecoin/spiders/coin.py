@@ -2,7 +2,6 @@
 import scrapy
 from scrapy_splash import SplashRequest
 
-
 class CoinSpider(scrapy.Spider):
     name = 'coin'
     allowed_domains = ['www.livecoin.net/en']
